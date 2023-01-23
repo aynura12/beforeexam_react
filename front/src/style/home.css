@@ -1,0 +1,129 @@
+.inf_section {
+  padding: 100px 0;
+  background-color: rgb(231, 230, 230);
+}
+.inf_card {
+  text-align: center;
+}
+.inf_card h1 {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+.inf_card p {
+  color: lightgray;
+  font-family: "Open Sans", sans-serif;
+}
+.inf_card i {
+  font-size: 50px;
+  color: lightgray;
+}
+.together_section {
+  padding: 100px 0px;
+}
+.together_section p {
+  color: rgb(126, 125, 125);
+  padding-bottom: 150px;
+  font-family: "Open Sans", sans-serif;
+}
+.together_section .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.together_section img {
+  height: 600px;
+  width: 500px;
+}
+
+.open_section {
+  padding-top: 100px;
+  background-color: rgb(241, 240, 240);
+}
+.open_section p {
+  color: rgb(126, 125, 125);
+  padding-bottom: 150px;
+  font-family: "Open Sans", sans-serif;
+}
+.open_section .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.open_section img {
+  height: 600px;
+  width: 500px;
+}
+.projects_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+  background-color:white;
+  padding: 100px 0;
+}
+.projects_section h1 {
+  padding-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.projects_section p {
+  color: rgb(126, 125, 125);
+  font-family: "Open Sans", sans-serif;
+  max-width: 900px;
+  text-align: center;
+}
+.image-section img {
+  object-fit: cover;
+  width: 100%;
+}
+.image-section {
+  width: 100%;
+}
+.image-section img:hover {
+  transform: scale(1.1);
+  filter: brightness(50%);
+}
+
+.blog_posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+.blog_posts p {
+  color: rgb(126, 125, 125);
+  font-family: "Open Sans", sans-serif;
+  max-width: 900px;
+  text-align: center;
+}
+
+.footer_top img {
+  width: 600px;
+  height: 150px;
+  padding-right: 40px;
+}
+.footer_card {
+  padding: 10px 10px;
+  /* border: 1px solid red; */
+  display: flex;
+  font-size: 13px;
+}
+.footer_card p {
+  color: rgb(126, 125, 125);
+  font-family: "Open Sans", sans-serif;
+}
+.footer_card h5 {
+  color: rgb(241, 66, 12);
+  min-width: 100px;
+}
+.footer_card button {
+  padding: 5px 5px;
+  color: white;
+  background-color: rgb(241, 66, 12);
+  border: none;
+  border-radius: 3px;
+  width: 100px;
+}

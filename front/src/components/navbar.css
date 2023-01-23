@@ -1,0 +1,32 @@
+.navbar {
+  font-family: "Open Sans", sans-serif;
+  background-color: aliceblue;
+}
+.navbar h5{
+  color: white;
+}
+.navbar button {
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+.button{
+    padding-bottom: 15px;
+}
+.navbar .link {
+color: lightgray;
+text-decoration: none;
+padding-right: 10px;
+font-size: 13px;
+}
+.item {
+  list-style: none;
+  color: black;
+}
+.lists {
+  text-decoration: none;
+  display: flex;
+}

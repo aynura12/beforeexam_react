@@ -1,0 +1,40 @@
+.my_addpage{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 300px;
+}
+
+
+.myform{
+    padding: 40px 40px ;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    gap: 10px;
+}
+.myform input{
+    border: none;
+    border-radius: 10px;
+   padding: 10px 10px;
+}
+.myform button{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+   width: 100px;
+   height: 30px;
+   text-align: center;
+   margin-right: 5px;
+}
+
+h5{
+    text-align: center;
+}
+.myform button:hover{
+    background-color: antiquewhite;
+    color: white;
+}
