@@ -16,8 +16,8 @@ const Testimonial = () => {
         const res=await axios.get("https://jsonplaceholder.typicode.com/users")
         setUsers(res.data)
     }
-    const deleteData = (id) => {
-      axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`);
+    const deleteData = async(id) => {
+     await axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`);
       
     };
         

@@ -3,14 +3,10 @@ import Slider from "../components/Slider/Slider";
 import "../style/home.css";
 import image from "../media/img1.webp";
 import image2 from "../media/jpg2.webp";
-import Footer from "../components/Footer";
 import Testimonial from "../components/Testimonial/Testimonial";
-import { NavLink } from "react-router-dom";
-import Navbar from "../components/Navbar";
 const Home = () => {
   return (
     <div>
-      
       <Slider/>
       <section className="inf_section">
         <div className="container inf_cards">
