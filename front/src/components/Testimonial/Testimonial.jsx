@@ -16,7 +16,10 @@ const Testimonial = () => {
         const res=await axios.get("https://jsonplaceholder.typicode.com/users")
         setUsers(res.data)
     }
-    
+    const deleteData = (id) => {
+      axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`);
+      
+    };
         
    useEffect(()=>{
 getUser()
@@ -48,11 +51,12 @@ getUser()
                            />
                           <div>
                             <h3>{user?.name}</h3>
-                           <p>ceo</p>
+                           <p>{user?.username}</p>
                           </div>
                           
                         </div>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore a, incidunt debitis delectus consectetur eveniet pariatur et. Eum omnis autem voluptatem accusantium porro dignissimos esse, ex impedit temporibus, vitae vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolores fugiat explicabo optio, voluptatum inventore eligendi neque eius. Repudiandae illo rem doloribus magnam maxime consectetur quas aliquid officiis reprehenderit veritatis.</p>
+                        <button onClick={(id)=>deleteData(user.id)}>delete</button>
                       </div>
                     </div>
                   </div>
